@@ -7,7 +7,7 @@ In this file presents the practical information on the project implementation an
 - Project structure
 - Dataset
 - Requirements
-- Runing the code
+- [Runing the code](##Runing-the-code)
   - Preprocess
   - Train model
   - Evaluate
