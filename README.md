@@ -6,8 +6,8 @@ In collaboration with the department of Biomedical Imaging Algorithms of the Cze
 In this file presents the practical information on the project implementation and how to run it.
 - Project structure
 - Dataset
-- Requirements
-- [Runing the code](## Runing the code)
+- [Requirements](##-Requirements)
+- [Runing the code](##-Runing-the-code)
   - Preprocess
   - Train model
   - Evaluate
