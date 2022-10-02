@@ -36,7 +36,6 @@ In this file presents the practical information on the project implementation an
 
 ## Dataset
 ## Requirements
-
 ## Runing the code
 
     
