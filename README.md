@@ -4,9 +4,9 @@ In partial fulfilment of the requirements for the degree in Bachelor’s degree 
 In collaboration with the department of Biomedical Imaging Algorithms of the Czech technical university (CTU), September 2022. 
 
 In this file presents the practical information on the project implementation and how to run it.
-- [Project structure](#-project-structure)
-- [Dataset](#-dataset)
-- [Requirements](#-requirements)
+- [Project structure](#project-structure)
+- [Dataset](#dataset)
+- [Requirements](#requirements)
 - [Runing the code](#runing-the-code)
   - Preprocess
   - Train model
