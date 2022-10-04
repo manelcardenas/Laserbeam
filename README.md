@@ -24,7 +24,7 @@ In this file presents the practical information on the project implementation an
  -  `data_vis/`: This directory contains `plots.py`, this file is in charge of all the plot of the project.
  -  `metrics/`: This directory contains `metrics.py`, in this file all the metrics of evaluation and loss functions used to train the model are defined.
  -  `report/`: Directory containing the reports of the thesis; `Biomedical_Imaging_Algorithms_report.pdf` the report by the Biomedical Imaging Algorithms of the Czech technical university and the `report.pdf` this is the one refering to this thesis.
- -  `results/`: After using `train_model.py` to train the model(CAMBIAR ESTO SI AL FINAL UTILIZO EL EVALUATE.PY)...it contains three sub directories.
+ -  `results/`: After using `train_model.py` to train the model, images will be created here.It contains three sub directories.
     -  `equalized_images/`: This directory contains the images after the equalization of the histogram is made. This is just a sanity check in order to see how the ecualization afects to the images. This process is made in `preprocess.py` and ploted with `data_vis/plots.py`.
     -  `predicted_images/`: This directory contains the resulting images predicted by the model. (PONER ALGO MAAAAAAAAS, SI VIENEN DE EVALUATION O DE TRAINING.
     -  `Sanity_check/`: Directory containing the images exactly as they will arrive to the model to train it. This images are presented after normalization so even though it is tried to plot them as in `fit_model/Images/`, their will present some diferences in chrominance. It is just a sanity check, his process is made in `train_model.py` and ploted with `data_vis/plots.py`.
@@ -33,7 +33,9 @@ In this file presents the practical information on the project implementation an
  - `unet_model.py`: Scrpt that contains the U-net model used in this project.
 
 ## Dataset
+The dataset are the 640 images and the 640 masks already saven in `raw_data/Images` and `raw_data/Masks`
 ## Requirements
+As the project has always been runed in ptak.felk.cvut.cz the `requirements.txt` are just loading the modules needed.
 ## Runing the code
-
+### Preprocess
     
