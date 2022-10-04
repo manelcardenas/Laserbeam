@@ -39,3 +39,4 @@ As the project has always been runed in ptak.felk.cvut.cz the `requirements.txt`
 ### Preprocess
 In order to obtain the best results. First the preprocess must be done. To do so, the file `preprocess.py` has to be executed. This file will use the images from `raw_data/Images` and  `raw_data/Masks` and will develop some techniques in order to modiffy the images to obtain the best results. The resulting images will be stored in `fit_model/Images` and `fit_model/masks` and the sanity check of the equalized images will be stored in `results/equalized_images/`.
 ## Train the model
+To train the model the file `train_model` must be used. This model
