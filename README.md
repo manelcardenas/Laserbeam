@@ -9,8 +9,7 @@ In this file presents the practical information on the project implementation an
 - [Requirements](#requirements)
 - [Runing the code](#runing-the-code)
   - [Preprocess](#Preprocess)
-  - Train model
-  - Evaluate
+  - [Train the model](#Train-the-model)
   
  ## Project structure
  The project has the next directory structure:
@@ -39,3 +38,4 @@ As the project has always been runed in ptak.felk.cvut.cz the `requirements.txt`
 ## Runing the code
 ### Preprocess
 In order to obtain the best results. First the preprocess must be done. To do so, the file `preprocess.py` has to be executed. This file will use the images from `raw_data/Images` and  `raw_data/Masks` and will develop some techniques in order to modiffy the images to obtain the best results. The resulting images will be stored in `fit_model/Images` and `fit_model/masks` and the sanity check of the equalized images will be stored in `results/equalized_images/`.
+## Train the model
