@@ -8,7 +8,7 @@ In this file presents the practical information on the project implementation an
 - [Dataset](#dataset)
 - [Requirements](#requirements)
 - [Runing the code](#runing-the-code)
-  - Preprocess
+  - [Preprocess](#Preprocess)
   - Train model
   - Evaluate
   
