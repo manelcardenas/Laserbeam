@@ -28,11 +28,9 @@ In this file presents the practical information on the project implementation an
     -  `equalized_images/`: This directory contains the images after the equalization of the histogram is made. This is just a sanity check in order to see how the ecualization afects to the images. This process is made in `src/preprocess.py` and ploted with `data_vis/plots.py`.
     -  `predicted_images/`: This directory contains the resulting images predicted by the model. (PONER ALGO MAAAAAAAAS, SI VIENEN DE EVALUATION O DE TRAINING.
     -  `Sanity_check/`: Directory containing the images exactly as they will arrive to the model to train it. This images are presented after normalization so even though it is tried to plot them as in `fit_model/Images/`, their will present some diferences in chrominance. It is just a sanity check, his process is made in `src/train_model.py` and ploted with `data_vis/plots.py`.
- - `simulaciones/`: In this directory we can find all the simulations results explaines in the `reprot.pdf`
- - `src/`: Directory with the .Python files with primary purpose of the code. 
-    - `preprocess.py`: Script used to do all the preprocessing of the images. Mandatory to obtain the best results. 
-    - `train_model.py`: Functions that invoke the `unet_model.py` and develops the training of the model.
-    - `unet_model.py`: Scrpt that contains the U-net model used in this project.
+ - `preprocess.py`: Script used to do all the preprocessing of the images. Mandatory to obtain the best results. 
+ - `train_model.py`: Functions that invoke the `unet_model.py` and develops the training of the model.
+ - `unet_model.py`: Scrpt that contains the U-net model used in this project.
 
 ## Dataset
 ## Requirements
