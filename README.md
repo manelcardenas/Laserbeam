@@ -32,11 +32,15 @@ In this file presents the practical information on the project implementation an
  - `unet_model.py`: Scrpt that contains the U-net model used in this project.
 
 ## Dataset
-The dataset are the 640 images and the 640 masks already saven in `raw_data/Images` and `raw_data/Masks`
+The dataset are the 640 images and the 640 masks. The default directories where they are already alocated are `raw_data/Images` and `raw_data/Masks`
 ## Requirements
-As the project has always been runed in ptak.felk.cvut.cz the `requirements.txt` are just loading the modules needed.
+The code requires Python 3.
+The project has always been runed in ptak.felk.cvut.cz the `requirements.txt` are just loading the modules needed.
 ## Runing the code
 ### Preprocess
 In order to obtain the best results. First the preprocess must be done. To do so, the file `preprocess.py` has to be executed. This file will use the images from `raw_data/Images` and  `raw_data/Masks` and will develop some techniques in order to modiffy the images to obtain the best results. The resulting images will be stored in `fit_model/Images` and `fit_model/masks` and the sanity check of the equalized images will be stored in `results/equalized_images/`.
 ## Train the model
-To train the model the file `train_model` must be used. To train the model some parameters values can be used by default or can be changes.
+To train the model the file `train_model` must be used. This file will get the model from `unet_model`. There is no need to use the `preprocess.py` although it is strongly recommended.
+The `train_model` can be executed with different metrics parameters, all them are in the `metrics/metrics.py`. The metrics can be selected in the terminal.
+> HOLA MUNDOOOOOOOOOOOGDFLGNBDSLKGNDFLKGNDFLGKNADFLKNGAGFDAGDA
+
