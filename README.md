@@ -46,6 +46,7 @@ The `train_model` can be executed with different metrics parameters, all them ar
 >
 >The code can be executed without any parameters and it will use the default ones (which are the ones with the best results)
 >
+>
 >optional arguments:
 >   -h, --help            show this help message and exit
 >   --epochs EPOCHS       Number of epochs used to train the model. Default: 40
