@@ -41,7 +41,7 @@ The project has always been runed in ptak.felk.cvut.cz the `requirements.txt` ar
 In order to obtain the best results. First the preprocess must be done. To do so, the file `preprocess.py` has to be executed. This file will use the images from `raw_data/Images` and  `raw_data/Masks` and will develop some techniques in order to modiffy the images to obtain the best results. The resulting images will be stored in `fit_model/Images` and `fit_model/masks` and the sanity check of the equalized images will be stored in `results/equalized_images/`.
 ## Train the model
 To train the model the file `train_model` must be used. This file will get the model from `unet_model`. There is no need to use the `preprocess.py` although it is strongly recommended.
-The `train_model` can be executed with different metrics parameters, all them are in the `metrics/metrics.py`. The metrics can be selected in the command line.
+>The `train_model` can be executed with different metrics parameters, all them are in the `metrics/metrics.py`. The metrics can be selected in the command line.
 > usage: PROG [-h] [--epochs EPOCHS] [--batch BATCH] [--filters FILTERS] [--metrics METRICS] [--loss LOSS]
 >            [--optimizer OPTIMIZER]
 >
