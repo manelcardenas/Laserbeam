@@ -47,18 +47,18 @@ The `train_model` can be executed with different metrics parameters, all them ar
 >The code can be executed without any parameters and it will use the default ones (which are the ones with the best results)
 >
 >optional arguments:
->  -h, --help            show this help message and exit
->  --epochs EPOCHS       Number of epochs used to train the model. Default: 40
->  --batch BATCH         Size of the batch. Default: 32
->  --filters FILTERS     Number of filters of the first convolutional layer. Default: 16
->  --metrics METRICS     Evaluation metrics that with which the model will be trained. There are 3 options:
+>   -h, --help            show this help message and exit
+>   --epochs EPOCHS       Number of epochs used to train the model. Default: 40
+>   --batch BATCH         Size of the batch. Default: 32
+>   --filters FILTERS     Number of filters of the first convolutional layer. Default: 16
+>   --metrics METRICS     Evaluation metrics that with which the model will be trained. There are 3 options:
 >                        -> IoU for Intersection over Union.
 >                        -> accuracy for the global accuracy.
 >                        -> dice_score for the Dice coefficient
->  --loss LOSS           Loss function used to train the model. There are two options:
+>   --loss LOSS          Loss function used to train the model. There are two options:
 >                        -> binary_crossentropy
 >                        -> dice_score_loss
->  --optimizer OPTIMIZER  Optimizer used to train the model. Default: Adam
+>   --optimizer OPTIMIZER  Optimizer used to train the model. Default: Adam
 
 
 
