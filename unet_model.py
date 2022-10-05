@@ -65,7 +65,7 @@ def unet_model(IMG_HEIGHT, IMG_WIDTH, IMG_CHANNELS, n_filters, metrics, loss, op
     outputs = Conv2D(1, (1, 1), activation='sigmoid')(conv9)
      
     model = Model(inputs=[inputs], outputs=[outputs])
-    model.compile(optimizer = optimizer, loss = loss, metrics = metrics)
+    model.compile(optimizer = 'adam', loss = 'binary_crossentropy', metrics = metrics)
     model.summary()
     
     return model
