@@ -18,8 +18,8 @@ def images_to_model(X_test,y_test):
     #print('mask:',y_train[image_number])
 
     for i in range(len(X_test)):
-        ##scale_img = X_test[i]
-        scale_img = 255 * X_test[i]
+        scale_img = X_test[i]
+        ##scale_img = 255 * X_test[i]
         img = scale_img.astype(np.uint8)
         cv2.imwrite(directory+'results/Sanity_check/check_image_{}.jpg'.format(i),img)
         scale_mask = 255 * y_test[i]
